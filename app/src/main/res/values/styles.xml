@@ -17,4 +17,59 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+
+    <!-- tab view -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#ffffff</item>
+        <item name="tabSelectedTextColor">#ffffff</item>
+        <item name="android:background">#00AA8d</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+
+    <!-- Category Tab Text Appearance -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Linear Layout Style -->
+    <style name="LinearLayoutStyle." parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/LinearLayout_margin</item>
+        <item name="android:layout_marginEnd">@dimen/LinearLayout_margin</item>
+        <item name="android:layout_marginStart">@dimen/LinearLayout_margin</item>
+        <item name="android:layout_marginTop">@dimen/LinearLayout_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Image View Style -->
+    <style name="ImageViewStyle">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/LinearLayout_margin</item>
+        <item name="android:layout_marginEnd">@dimen/LinearLayout_margin</item>
+        <item name="android:layout_marginStart">@dimen/LinearLayout_margin</item>
+        <item name="android:layout_marginTop">@dimen/LinearLayout_margin</item>
+    </style>
+
+    <!-- Title Text Style -->
+    <style name="TitleTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">default</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Description Text Style -->
+    <style name="DescriptionTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">3</item>
+    </style>
 </resources>

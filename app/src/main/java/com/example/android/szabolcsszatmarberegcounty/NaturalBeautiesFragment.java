@@ -23,19 +23,18 @@ public class NaturalBeautiesFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.list, container, false);
+        View rootView = inflater.inflate(R.layout.places_list, container, false);
 
         // list of Drinking locations
         final ArrayList<place> places = new ArrayList<place>();
-        places.add(new place("Kelly's Bar", "Scandinavian rock/metal bar", "http://www.kellysbar.se/",  R.drawable.kellysbar, "££"));
-        places.add(new place("Cafe Sten Sture", "Hidden little cellar bar", "http://www.cafestensture.se//",  R.drawable.cafestenstura, "£"));
-        places.add(new place("Harry B James", "American style bar with a bit of a rock edge", "https://www.harrybjames.com//",  R.drawable.harrybjamesbar, "£££"));
-        places.add(new place("Oliver Twist Bar", "Nice friendly local", "http://www.olivertwist.se/",  R.drawable.olivertwists, "£££"));
-        places.add(new place("Kings Bar", "Cheapest drinks in Stockholm?", "https://popularabarer.se/0348343/Kings_Bar//",  R.drawable.kingsbar, "£"));
-        places.add(new place("Dovas", "Beer 50cl from 35sek", "https://www.tripadvisor.se/Restaurant_Review-g189852-d7211992-Reviews-Dovas_Hornsgatan_90-Stockholm.html//",  R.drawable.dovasbar, "£"));
-        places.add(new place("Lasse i Parken", "Bands play outside most nights for free in the summer months", "https://www.lasseiparken.se/",  R.drawable.lasseiparken, "£££"));
-        places.add(new place("Viking Bar", "50cl Beer 39sek", "https://foursquare.com/v/viking-bar/51a12a8b498eeb0fb7ba2a13/",  R.drawable.vikingbar, "££"));
-        places.add(new place("Charlies Bar Kok", "40cl Draught beer 28sek", "https://www.yelp.com/biz/charlies-k%C3%B6k-och-bar-stockholm/",  R.drawable.charliesbar, "££"));
+        places.add(new place("Kelly's Bar", "Scandinavian rock/metal bar", "http://www.kellysbar.se/",  R.drawable.kellysbar ));
+        places.add(new place("Cafe Sten Sture", "Hidden little cellar bar", "http://www.cafestensture.se//",  R.drawable.cafestenstura ));
+        places.add(new place("Harry B James", "American style bar with a bit of a rock edge", "https://www.harrybjames.com//",  R.drawable.harrybjamesbar ));
+        places.add(new place("Oliver Twist Bar", "Nice friendly local", "http://www.olivertwist.se/",  R.drawable.olivertwists ));
+        places.add(new place("Kings Bar", "Cheapest drinks in Stockholm?", "https://popularabarer.se/0348343/Kings_Bar//",  R.drawable.kingsbar ));
+        places.add(new place("Dovas", "Beer 50cl from 35sek", "https://www.tripadvisor.se/Restaurant_Review-g189852-d7211992-Reviews-Dovas_Hornsgatan_90-Stockholm.html//" ));
+        places.add(new place("Lasse i Parken", "Bands play outside most nights for free in the summer months", "https://www.lasseiparken.se/",  R.drawable.lasseiparken ));
+        places.add(new place("Viking Bar", "50cl Beer 39sek", "https://foursquare.com/v/viking-bar/51a12a8b498eeb0fb7ba2a13/",  R.drawable.vikingbar ));
 
         // Create a new {@link ArrayAdapter} for drinking category
         final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.category_drinking);

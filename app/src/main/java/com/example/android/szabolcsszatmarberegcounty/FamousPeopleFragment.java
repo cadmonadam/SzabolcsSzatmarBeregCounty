@@ -23,18 +23,18 @@ public class FamousPeopleFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.list, container, false);
+        View rootView = inflater.inflate(R.layout.places_list, container, false);
 
         // list of Eating locations
         final ArrayList<place> places = new ArrayList<place>();
-        places.add(new place("Folkets Kebab", "Good falafels", "http://www.tripadvisor.com/Restaurant_Review-g189852-d810122-Reviews-Folkets_Kebab-Stockholm.html/",  R.drawable.kebabfolkets, "£"));
-        places.add(new place("Nystekt Strömming", "Stockholm's famous fish stand", "https://www.tripadvisor.com/Restaurant_Review-g189852-d2201594-Reviews-Nystekt_Stromming-Stockholm.html/",  R.drawable.fishstand, "££"));
+        places.add(new place("Folkets Kebab", "Good falafels", "http://www.tripadvisor.com/Restaurant_Review-g189852-d810122-Reviews-Folkets_Kebab-Stockholm.html/",  R.drawable.kebabfolkets ));
+        places.add(new place("Nystekt Strömming", "Stockholm's famous fish stand", "https://www.tripadvisor.com/Restaurant_Review-g189852-d2201594-Reviews-Nystekt_Stromming-Stockholm.html/",  R.drawable.fishstand ));
         places.add(new place("Bistro Celine", "Pasta dishes from 79sek", "http://www.bistro-celine.se//",  R.drawable.foodhallostermalm, "££"));
         places.add(new place("Bagel Street Cafe", "Bagels from 35sek", "http://www.bagelstreet.se//",  R.drawable.bagelstreetcafe, "££"));
-        places.add(new place("Jerusalem Kebab", "Maybe Stockholm's most popular kebab", "https://www.tripadvisor.com/Restaurant_Review-g189852-d1119643-Reviews-Jerusalem_Kebab-Stockholm.html/",  R.drawable.jerusalemkebab, "£"));
-        places.add(new place("Lilla Harem Pizzaria", "Hidden pizzaria selling large pizzas from 60sek", "http://www.lillaharem.se/",  R.drawable.lillaharempizza, "££"));
-        places.add(new place("St Pauls Pizzeria", "Cheap central pizza", "https://www.yelp.com/biz/s-t-pauls-pizzeria-stockholm",  R.drawable.stpaulspizza, "££"));
-        places.add(new place("Waynes Coffee", "Stockholm's version of Starbucks", "http://www.waynescoffee.se//",  R.drawable.waynescoffee, "£££"));
+        places.add(new place("Jerusalem Kebab", "Maybe Stockholm's most popular kebab", "https://www.tripadvisor.com/Restaurant_Review-g189852-d1119643-Reviews-Jerusalem_Kebab-Stockholm.html/",  R.drawable.jerusalemkebab ));
+        places.add(new place("Lilla Harem Pizzaria", "Hidden pizzaria selling large pizzas from 60sek", "http://www.lillaharem.se/",  R.drawable.lillaharempizza ));
+        places.add(new place("St Pauls Pizzeria", "Cheap central pizza", "https://www.yelp.com/biz/s-t-pauls-pizzeria-stockholm",  R.drawable.stpaulspizza ));
+        places.add(new place("Waynes Coffee", "Stockholm's version of Starbucks", "http://www.waynescoffee.se//",  R.drawable.waynescoffee ));
 
         // Create a new {@link ArrayAdapter} for eating category
         final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.category_eating);

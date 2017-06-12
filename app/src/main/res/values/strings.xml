@@ -2,4 +2,17 @@
     <string name="app_name">Szabolcs Szatmar Bereg County</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="name">Name Placeholder</string>
+    <string name="description">Description Placeholder</string>
+    <string name="nyiregyhaza_title">Nyíregyháza</string>
+    <string name="nyiregyhaza_description">The Capital of the County with beautiful buildings and parks.</string>
+    <string name="nyiregyhaza_url">http://www.nyiregyhaza.info.hu/</string>
+    <string name="tiszadob_title">Tiszadob</string>
+    <string name="tiszadob_description">You can inspect Andrássy Caslte built in romantic style.</string>
+    <string name="tiszadob_url">https://www.programturizmus.hu/telepules-tiszadob.html</string>
+    <string name="bakta_title">Baktalórántháza</string>
+    <string name="bakta_description">Explore the shiny Dregenfel Castle Museum.</string>
+    <string name="bakta_url">https://www.programturizmus.hu/telepules-baktaloranthaza.html</string>
+
+
 </resources>
