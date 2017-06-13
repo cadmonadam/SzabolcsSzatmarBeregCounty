@@ -18,23 +18,23 @@ import java.util.ArrayList;
 public class EntertainmentFacilitiesFragment extends Fragment {
 
     public EntertainmentFacilitiesFragment() {
-        // Required empty public constructor
+        // This is the empty public constructor
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.places_list, container, false);
 
-        // list of Shopping locations
+        // This is the list of Entertainment Facilities
         final ArrayList<place> places = new ArrayList<place>();
-        places.add(new place("Stadsmission Second hand", "Charity shops", "https://www.stadsmissionen.se/",  R.drawable.stadsmission ));
-        places.add(new place("Emmaus second hand", "Boutique second hand", "http://www.emmausstockholm.se/butiker/",  R.drawable.emmaus ));
-        places.add(new place("Design Torget", "Interesting & unique designs", "http://www.designtorget.se/",  R.drawable.designtorget ));
-        places.add(new place("Filippa K Secondhand", "Famous Stockholm brand but used", "http://www.filippaksecondhand.se/",  R.drawable.filippak ));
-        places.add(new place("Humana", "Used clothing", "http://www.humanasecondhand.se/",  R.drawable.humanasecondhand ));
-        places.add(new place("Mickes Vinyl, CD & DVDs", "Used Vinyl, CD & DVD's", "http://www.mickes-cdvinyl.se/",  R.drawable.mikeysrecords ));
-        places.add(new place("Myrorna Secondhand", "Cheap & unpretentious secondhand", "http://www.myrorna.se/", R.drawable.myrorna ));
-        places.add(new place("Judits Second hand", "Clothes from the 1920’s onwards + Local designers", "http://www.judits.se/",  R.drawable.judits ));
+        places.add(new place(getString(R.string.sostovillage), getString(R.string.sostovillage_description), getString(R.string.sostovillage_url),  R.drawable.sostovillage ));
+        places.add(new place(getString(R.string.sostozoo), getString(R.string.sostozoo_description), getString(R.string.sostozoo_url),  R.drawable.sostozoo ));
+        places.add(new place(getString(R.string.sostospa), getString(R.string.sostospa_description), getString(R.string.sostospa_url),  R.drawable.sostofurdo ));
+        places.add(new place(getString(R.string.rabocsiring), getString(R.string.rabocsiring_description), getString(R.string.rabocsiring_url),  R.drawable.rabocsiring ));
+        places.add(new place(getString(R.string.fedeles), getString(R.string.fedeles_description), getString(R.string.fedeles_url),  R.drawable.fedeleslovarda ));
+        places.add(new place(getString(R.string.waterski), getString(R.string.waterski_description), getString(R.string.waterski_url),  R.drawable.waterski ));
+        places.add(new place(getString(R.string.albatros), getString(R.string.albatros_description), getString(R.string.albatros_url), R.drawable.albatros ));
+        places.add(new place(getString(R.string.tyukod), getString(R.string.tyukod_description), getString(R.string.tyukod_url),  R.drawable.tyukod ));
 
 
         // Create a new {@link ArrayAdapter} for shopping category

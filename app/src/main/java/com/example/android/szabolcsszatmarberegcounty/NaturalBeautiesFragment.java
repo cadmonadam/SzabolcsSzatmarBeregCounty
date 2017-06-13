@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class NaturalBeautiesFragment extends Fragment {
 
     public NaturalBeautiesFragment() {
-        // Required empty public constructor
+        // This is the empty public constructor
     }
 
     @Override
@@ -27,14 +27,14 @@ public class NaturalBeautiesFragment extends Fragment {
 
         // list of Drinking locations
         final ArrayList<place> places = new ArrayList<place>();
-        places.add(new place("Balsa Ecotourism Visitor Center", " Situated on the banks of the river Tisza in a unique natural environment.", "https://www.programturizmus.hu/partner-balsai-okoturisztikai-latogatokozpont.html",  R.drawable.balsa ));
-        places.add(new place("Luby Castle Museum and Garden of Ancient Roses", "In Kincses Island of Szatmár, the Luby Castle is located in Nagyar. The unusual mansion is surrounded by Hungary's largest musician's rose garden.", "https://www.programturizmus.hu/partner-luby-kastelymuzeum.html",  R.drawable.luby ));
-        places.add(new place("János Tuzson Botanical Garden", "Situated in the vicinity of the beautiful Sóstó forest, in the embrace of College of Nyíregyháza.", "https://www.programturizmus.hu/partner-tuzson-janos-botanikus-kert-nyiregyhaza.html",  R.drawable.garden ));
-        places.add(new place("Country House in Szatmárcseke", "The country house was built in the 18th century, with straw roof, furnished with folk furniture.", "https://www.programturizmus.hu/partner-szatmarcsekei-tajhaz-szatmarcseke.html",  R.drawable.tajhaz ));
-        places.add(new place("Water Mill in Turistvándi", "The Water mill was built at the end of the 18th century. It offers a spectacular view with its protected monumental surroundings.", "https://www.programturizmus.hu/partner-vizimalom-turistvandi.html//",  R.drawable.vizimalom ));
-        places.add(new place("Dovas", "Beer 50cl from 35sek", "https://www.tripadvisor.se/Restaurant_Review-g189852-d7211992-Reviews-Dovas_Hornsgatan_90-Stockholm.html//" ));
-        places.add(new place("Lasse i Parken", "Bands play outside most nights for free in the summer months", "https://www.lasseiparken.se/",  R.drawable.lasseiparken ));
-        places.add(new place("Viking Bar", "50cl Beer 39sek", "https://foursquare.com/v/viking-bar/51a12a8b498eeb0fb7ba2a13/",  R.drawable.vikingbar ));
+        places.add(new place(getString(R.string.balsa), getString(R.string.balsa_description), getString(R.string.balsa_url),  R.drawable.balsa ));
+        places.add(new place(getString(R.string.luby), getString(R.string.luby_description), getString(R.string.luby_url),  R.drawable.luby ));
+        places.add(new place(getString(R.string.botanical), getString(R.string.botanical_description), getString(R.string.botanical_url),  R.drawable.garden ));
+        places.add(new place(getString(R.string.szatmarcseke), getString(R.string.szatmarcseke_description), getString(R.string.szatmarcseke_url),  R.drawable.tajhaz ));
+        places.add(new place(getString(R.string.turistvandi), getString(R.string.turistvandi_description), getString(R.string.turistvandi_url),  R.drawable.vizimalom ));
+        places.add(new place(getString(R.string.tiszatelek), getString(R.string.tiszatelek_description), getString(R.string.tiszatelek_url), R.drawable.tiszabercel ));
+        places.add(new place(getString(R.string.vajalake), getString(R.string.vajalake_description), getString(R.string.vajalake_url),  R.drawable.vajaito ));
+        places.add(new place(getString(R.string.kaszony), getString(R.string.kaszony_description), getString(R.string.kaszony_url),  R.drawable.kaszony ));
 
         // Create a new {@link ArrayAdapter} for drinking category
         final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.category_drinking);

@@ -11,8 +11,95 @@
     <string name="tiszadob_description">You can inspect Andrássy Caslte built in romantic style.</string>
     <string name="tiszadob_url">https://www.programturizmus.hu/telepules-tiszadob.html</string>
     <string name="bakta_title">Baktalórántháza</string>
+    <string name="sostovillage">Sóstó Village Museum</string>
+    <string name="sostovillage_description">A special journey to the past of Hungary.</string>
+    <string name="sostovillage_url">https://www.programturizmus.hu/partner-sostoi-muzeumfalu-nyiregyhaza-sosto.html</string>
+    <string name="sostozoo">Sóstó Zoo</string>
+    <string name="sostozoo_description">You can inspect the largest zoo in Hungary.</string>
+    <string name="sostozoo_url">https://www.programturizmus.hu/partner-nyiregyhazi-allatpark-sosto-zoo.html</string>
+    <string name="sostospa">Sóstó Spa</string>
+    <string name="sostospa_description">A very beautiful spa with incredible surroundings.</string>
+    <string name="sostospa_url">https://www.utazzitthon.hu/latnivalo/nyiregyhaza/sosto-parkfurdo-200</string>
+    <string name="rabocsiring">RabócsiRing</string>
+    <string name="rabocsiring_description">Paintball, motorsport, go-kart, archery and quad facilities.</string>
+    <string name="rabocsiring_url">https://www.utazzitthon.hu/latnivalo/mariapocs/rabocsiring-32774</string>
+    <string name="fedeles">Fedeles Riding Hall</string>
+    <string name="fedeles_description">If you like horse riding this place is for you!</string>
+    <string name="fedeles_url">https://www.utazzitthon.hu/latnivalo/mezohegyes/fedeles-lovarda-17428</string>
+    <string name="waterski">Waterski Center – Levelek</string>
+    <string name="waterski_description">Wakeboard, wakesurf, wakeskate and more are waiting for you.</string>
+    <string name="waterski_url">https://www.utazzitthon.hu/latnivalo/levelek/vizisi-centrum-32057</string>
+    <string name="albatros">Albatros sailplaining</string>
+    <string name="albatros_description">If you feel yourself comfortable int he air you must try it!</string>
+    <string name="albatros_url">https://www.utazzitthon.hu/latnivalo/nyiregyhaza/albatrosz-vitorlazorepulo-egyesulet-32305</string>
+    <string name="tyukod">Fishing Lake – Tyukod</string>
+    <string name="tyukod_description">Fish, calmness and fresh air. What else could you wish for?</string>
+    <string name="tyukod_url">https://www.utazzitthon.hu/latnivalo/tyukod/tyukodi-horgaszto-33515</string>
+    <string name="vay">Vay Ádám (1657 – 1719)</string>
+    <string name="vay_description">General in Revolution and War of Independence of II. Rákóczi Ferenc</string>
+    <string formatted="false" name="vay_url">https://hu.wikipedia.org/wiki/Vay_%C3%81d%C3%A1m_%28f%C5%91kapit%C3%A1ny%29</string>
+    <string name="bessenyei">Bessenyei György (1746 – 1811)</string>
+    <string name="bessenyei_description">Poet, one of the major personalities of the Hungarian Enlightenment Movement.</string>
+    <string formatted="false" name="bessenyei_url">https://hu.wikipedia.org/wiki/Bessenyei_Gy%C3%B6rgy</string>
+    <string name="lonyay">Lónyay Menyhért (1822 – 1884)</string>
+    <string name="lonyay_description">Politician, prime minister, publicist, president of the Hungarian Academy of Sciences.</string>
+    <string formatted="false" name="lonyay_url">https://hu.wikipedia.org/wiki/L%C3%B3nyay_Menyh%C3%A9rt</string>
+    <string name="vasvari">Vasvári Pál (1826 – 1849)</string>
+    <string name="vasvari_description">Writer, historian, philosopher, politician, revolutionist.</string>
+    <string formatted="false" name="vasvari_url">https://hu.wikipedia.org/wiki/Vasv%C3%A1ri_P%C3%A1l_%28t%C3%B6rt%C3%A9n%C3%A9sz%29</string>
+    <string name="koranyi">Korányi Frigyes (1828 – 1913)</string>
+    <string name="koranyi_description">Doctor, university professor, one of the determinants in Hungarian Medicine.</string>
+    <string formatted="false" name="koranyi_url">https://hu.wikipedia.org/wiki/Kor%C3%A1nyi_Frigyes_(orvos)</string>
+    <string name="benczur">Benczúr Gyula (1844 – 1920)</string>
+    <string name="benczur_description">Famous painter, honorary member of the Hungarian Academy of Sciences.</string>
+    <string formatted="false" name="benczur_url">https://hu.wikipedia.org/wiki/Bencz%C3%BAr_Gyula_%28fest%C5%91m%C5%B1v%C3%A9sz%29</string>
+    <string name="krudy">Krúdy Gyula (1878 – 1933)</string>
+    <string name="krudy_description">Writer, an excellent master of modern Hungarian prose writings.</string>
+    <string formatted="false" name="krudy_url">https://hu.wikipedia.org/wiki/Kr%C3%BAdy_Gyula</string>
+    <string name="moricz">Móricz Zsigmond (1879 – 1942)</string>
+    <string name="moricz_description">Hungarian writer, journalist, editor, the most famous figure of the realistic prose literature of the 20th century.</string>
+    <string formatted="false" name="moricz_url">https://hu.wikipedia.org/wiki/M%C3%B3ricz_Zsigmond</string>
     <string name="bakta_description">Explore the shiny Dregenfel Castle Museum.</string>
     <string name="bakta_url">https://www.programturizmus.hu/telepules-baktaloranthaza.html</string>
+    <string name="tuzser">Tuzsér</string>
+    <string name="tuzser_description">Discover the Lonyay Castle an its surroundings.</string>
+    <string name="tuzser_url">https://www.programturizmus.hu/partner-lonyai-kastely-tuzser.html</string>
+    <string name="kisvarda">Kisvárda</string>
+    <string name="kisvarda_description">Find interesting artifacts in the Castle Museum</string>
+    <string name="kisvarda_url">https://www.programturizmus.hu/partner-retkozi-muzeum-kisvarda.html</string>
+    <string name="mateszalka">Mátészalka</string>
+    <string name="mateszalka_description">You will love this unique Rail Historical Collection.</string>
+    <string name="mateszalka_url">https://www.programturizmus.hu/partner-vasuti-helytorteneti-gyujtemeny-mateszalka.html</string>
+    <string name="mariapocs">Máriapócs</string>
+    <string name="mariapocs_description">The world famous catholic church where real miracles happened.</string>
+    <string name="mariapocs_url">http://mariapocskegyhely.hu/</string>
+    <string name="vajamuseum">Vaja</string>
+    <string name="vajamuseum_description">The Castle of Vay Adam commemorates the Rakoczi War of Independence.</string>
+    <string name="vajamuseum_url">https://www.programturizmus.hu/partner-vay-adam-muzeum-vaja.html</string>
+    <string name="balsa">Balsa Ecotourism Visitor Center</string>
+    <string name="balsa_description">Situated on the banks of the river Tisza in a unique natural environment.</string>
+    <string name="balsa_url">https://www.programturizmus.hu/partner-balsai-okoturisztikai-latogatokozpont.html</string>
+    <string name="luby">Luby Castle Museum and Garden of Ancient Roses</string>
+    <string name="luby_description">In Kincses Island of Szatmár, the Luby Castle is located in Nagyar. The unusual mansion is surrounded by Hungary\'s largest musician\'s rose garden.</string>
+    <string name="luby_url">https://www.programturizmus.hu/partner-luby-kastelymuzeum.html</string>
+    <string name="botanical">János Tuzson Botanical Garden</string>
+    <string name="botanical_description">Situated in the vicinity of the beautiful Sóstó forest, in the embrace of College of Nyíregyháza.</string>
+    <string name="botanical_url">https://www.programturizmus.hu/partner-tuzson-janos-botanikus-kert-nyiregyhaza.html</string>
+    <string name="szatmarcseke">Country House in Szatmárcseke</string>
+    <string name="szatmarcseke_description">The country house was built in the 18th century, with straw roof, furnished with folk furniture.</string>
+    <string name="szatmarcseke_url">https://www.programturizmus.hu/partner-szatmarcsekei-tajhaz-szatmarcseke.html</string>
+    <string name="turistvandi">Water Mill in Turistvándi</string>
+    <string name="turistvandi_description">The Water mill was built at the end of the 18th century. It offers a spectacular view with its protected monumental surroundings.</string>
+    <string name="turistvandi_url">https://www.programturizmus.hu/partner-vizimalom-turistvandi.html//</string>
+    <string name="tiszatelek">Tiszatelek</string>
+    <string name="tiszatelek_description">In the bank of the river Tisza you can find real natural beauties: wild-summer-grasslands, hardwood oak trees, the white fairy-rose, the tulip flowers etc.</string>
+    <string name="tiszatelek_url">https://www.utazzitthon.hu/latnivalo/tiszatelek/tiszaberceli-arter-21032</string>
+    <string name="vajalake">Lake of Vaja</string>
+    <string name="vajalake_description">A beautiful place where you can fish or just enjoy the rest.</string>
+    <string name="vajalake_url">https://www.utazzitthon.hu/latnivalo/vaja/vajai-to-termeszetvedelmi-terulet-20863</string>
+    <string name="kaszony">Kaszony Hill</string>
+    <string name="kaszony_description">From the top of the hill you can see an incredible panorama.</string>
+    <string name="kaszony_url">https://www.utazzitthon.hu/latnivalo/barabas-varos/kaszonyi-hegy-termeszetvedelmi-terulet-barabas-21251</string>
 
 
 </resources>

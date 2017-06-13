@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class MustSeeTownsFragment extends Fragment {
 
     public MustSeeTownsFragment() {
-        // Required empty public constructor
+        // This is the empty public constructor
     }
 
     @Override
@@ -29,12 +29,12 @@ public class MustSeeTownsFragment extends Fragment {
         final ArrayList<place> places = new ArrayList<place>();
         places.add(new place(getString(R.string.nyiregyhaza_title), getString(R.string.nyiregyhaza_description), getString(R.string.nyiregyhaza_url), R.drawable.nyiregyhaza ));
         places.add(new place(getString(R.string.tiszadob_title), getString(R.string.tiszadob_description), getString(R.string.tiszadob_url), R.drawable.tiszadob ));
-        places.add(new place(getString(R.string.bakta_title), "Explore the shiny Dregenfel Castle Museum.", "https://www.programturizmus.hu/telepules-baktaloranthaza.html", R.drawable.bakta ));
-        places.add(new place("Tuzsér", "Discover the Lonyay Castle an its surroundings.", "https://www.programturizmus.hu/partner-lonyai-kastely-tuzser.html", R.drawable.tuzser ));
-        places.add(new place("Kisvárda", "Find interesting artifacts in the Castle Museum", "https://www.programturizmus.hu/partner-retkozi-muzeum-kisvarda.html", R.drawable.kisvarda ));
-        places.add(new place("Mátészalka", "You will love this unique Rail Historical Collection.", "https://www.programturizmus.hu/partner-vasuti-helytorteneti-gyujtemeny-mateszalka.html", R.drawable.mateszalka ));
-        places.add(new place("Máriapócs", "The world famous catholic church where real miracles happened.", "http://mariapocskegyhely.hu/", R.drawable.mariapocs ));
-        places.add(new place("Vaja", "The Castle of Vay Adam commemorates the Rakoczi War of Independence.", "https://www.programturizmus.hu/partner-vay-adam-muzeum-vaja.html", R.drawable.vaja ));
+        places.add(new place(getString(R.string.bakta_title), getString(R.string.bakta_description), getString(R.string.bakta_url), R.drawable.bakta ));
+        places.add(new place(getString(R.string.tuzser), getString(R.string.tuzser_description), getString(R.string.tuzser_url), R.drawable.tuzser ));
+        places.add(new place(getString(R.string.kisvarda), getString(R.string.kisvarda_description), getString(R.string.kisvarda_url), R.drawable.kisvarda ));
+        places.add(new place(getString(R.string.mateszalka), getString(R.string.mateszalka_description), getString(R.string.mateszalka_url), R.drawable.mateszalka ));
+        places.add(new place(getString(R.string.mariapocs), getString(R.string.mariapocs_description), getString(R.string.mariapocs_url), R.drawable.mariapocs ));
+        places.add(new place(getString(R.string.vajamuseum), getString(R.string.vajamuseum_description), getString(R.string.vajamuseum_url), R.drawable.vaja ));
 
 
         // Create a new {@link ArrayAdapter} for museum category
