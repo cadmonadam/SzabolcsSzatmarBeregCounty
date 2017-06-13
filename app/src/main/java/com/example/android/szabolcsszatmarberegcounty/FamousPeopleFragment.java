@@ -27,14 +27,14 @@ public class FamousPeopleFragment extends Fragment {
 
         // list of Eating locations
         final ArrayList<place> places = new ArrayList<place>();
-        places.add(new place("Folkets Kebab", "Good falafels", "http://www.tripadvisor.com/Restaurant_Review-g189852-d810122-Reviews-Folkets_Kebab-Stockholm.html/",  R.drawable.kebabfolkets ));
-        places.add(new place("Nystekt Strömming", "Stockholm's famous fish stand", "https://www.tripadvisor.com/Restaurant_Review-g189852-d2201594-Reviews-Nystekt_Stromming-Stockholm.html/",  R.drawable.fishstand ));
-        places.add(new place("Bistro Celine", "Pasta dishes from 79sek", "http://www.bistro-celine.se//",  R.drawable.foodhallostermalm, "££"));
-        places.add(new place("Bagel Street Cafe", "Bagels from 35sek", "http://www.bagelstreet.se//",  R.drawable.bagelstreetcafe, "££"));
-        places.add(new place("Jerusalem Kebab", "Maybe Stockholm's most popular kebab", "https://www.tripadvisor.com/Restaurant_Review-g189852-d1119643-Reviews-Jerusalem_Kebab-Stockholm.html/",  R.drawable.jerusalemkebab ));
-        places.add(new place("Lilla Harem Pizzaria", "Hidden pizzaria selling large pizzas from 60sek", "http://www.lillaharem.se/",  R.drawable.lillaharempizza ));
-        places.add(new place("St Pauls Pizzeria", "Cheap central pizza", "https://www.yelp.com/biz/s-t-pauls-pizzeria-stockholm",  R.drawable.stpaulspizza ));
-        places.add(new place("Waynes Coffee", "Stockholm's version of Starbucks", "http://www.waynescoffee.se//",  R.drawable.waynescoffee ));
+        places.add(new place("Vay Ádám (1657 – 1719)", "General in Revolution and War of Independence of II. Rákóczi Ferenc", "https://hu.wikipedia.org/wiki/Vay_%C3%81d%C3%A1m_%28f%C5%91kapit%C3%A1ny%29",  R.drawable.vay ));
+        places.add(new place("Bessenyei György (1746 – 1811)", "Poet, one of the major personalities of the Hungarian Enlightenment Movement.", "https://hu.wikipedia.org/wiki/Bessenyei_Gy%C3%B6rgy",  R.drawable.bessenyei ));
+        places.add(new place("Lónyay Menyhért (1822 – 1884)", "Politician, prime minister, publicist, president of the Hungarian Academy of Sciences.", "https://hu.wikipedia.org/wiki/L%C3%B3nyay_Menyh%C3%A9rt",  R.drawable.lonyay ));
+        places.add(new place("Vasvári Pál (1826 – 1849)", "Writer, historian, philosopher, politician, revolutionist.", "https://hu.wikipedia.org/wiki/Vasv%C3%A1ri_P%C3%A1l_%28t%C3%B6rt%C3%A9n%C3%A9sz%29",  R.drawable.vasvari ));
+        places.add(new place("Korányi Frigyes (1828 – 1913)", "Doctor, university professor, one of the determinants in Hungarian Medicine.", "https://hu.wikipedia.org/wiki/Kor%C3%A1nyi_Frigyes_(orvos)",  R.drawable.koranyi ));
+        places.add(new place("Benczúr Gyula (1844 – 1920)", "Famous painter, honorary member of the Hungarian Academy of Sciences.", "https://hu.wikipedia.org/wiki/Bencz%C3%BAr_Gyula_%28fest%C5%91m%C5%B1v%C3%A9sz%29",  R.drawable.benczur ));
+        places.add(new place("Krúdy Gyula (1878 – 1933)", "Writer, an excellent master of modern Hungarian prose writings.", "https://hu.wikipedia.org/wiki/Kr%C3%BAdy_Gyula",  R.drawable.krudy ));
+        places.add(new place("Móricz Zsigmond (1879 – 1942)", "), Hungarian writer, journalist, editor, the most famous figure of the realistic prose literature of the 20th century.", "https://hu.wikipedia.org/wiki/M%C3%B3ricz_Zsigmond",  R.drawable.moricz ));
 
         // Create a new {@link ArrayAdapter} for eating category
         final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.category_eating);
