@@ -27,24 +27,26 @@ public class EntertainmentFacilitiesFragment extends Fragment {
 
         // This is the list of Entertainment Facilities
         final ArrayList<place> places = new ArrayList<place>();
-        places.add(new place(getString(R.string.sostovillage), getString(R.string.sostovillage_description), getString(R.string.sostovillage_url),  R.drawable.sostovillage ));
-        places.add(new place(getString(R.string.sostozoo), getString(R.string.sostozoo_description), getString(R.string.sostozoo_url),  R.drawable.sostozoo ));
-        places.add(new place(getString(R.string.sostospa), getString(R.string.sostospa_description), getString(R.string.sostospa_url),  R.drawable.sostofurdo ));
-        places.add(new place(getString(R.string.rabocsiring), getString(R.string.rabocsiring_description), getString(R.string.rabocsiring_url),  R.drawable.rabocsiring ));
-        places.add(new place(getString(R.string.fedeles), getString(R.string.fedeles_description), getString(R.string.fedeles_url),  R.drawable.fedeleslovarda ));
-        places.add(new place(getString(R.string.waterski), getString(R.string.waterski_description), getString(R.string.waterski_url),  R.drawable.waterski ));
-        places.add(new place(getString(R.string.albatros), getString(R.string.albatros_description), getString(R.string.albatros_url), R.drawable.albatros ));
-        places.add(new place(getString(R.string.tyukod), getString(R.string.tyukod_description), getString(R.string.tyukod_url),  R.drawable.tyukod ));
+        places.add(new place(getString(R.string.sostovillage), getString(R.string.sostovillage_description), getString(R.string.sostovillage_url), R.drawable.sostovillage));
+        places.add(new place(getString(R.string.sostozoo), getString(R.string.sostozoo_description), getString(R.string.sostozoo_url), R.drawable.sostozoo));
+        places.add(new place(getString(R.string.sostospa), getString(R.string.sostospa_description), getString(R.string.sostospa_url), R.drawable.sostofurdo));
+        places.add(new place(getString(R.string.rabocsiring), getString(R.string.rabocsiring_description), getString(R.string.rabocsiring_url), R.drawable.rabocsiring));
+        places.add(new place(getString(R.string.fedeles), getString(R.string.fedeles_description), getString(R.string.fedeles_url), R.drawable.fedeleslovarda));
+        places.add(new place(getString(R.string.waterski), getString(R.string.waterski_description), getString(R.string.waterski_url), R.drawable.waterski));
+        places.add(new place(getString(R.string.albatros), getString(R.string.albatros_description), getString(R.string.albatros_url), R.drawable.albatros));
+        places.add(new place(getString(R.string.tyukod), getString(R.string.tyukod_description), getString(R.string.tyukod_url), R.drawable.tyukod));
 
 
-        // Create a new {@link ArrayAdapter} for shopping category
-        final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.category_shopping);
+        // Create a new {@link ArrayAdapter} for Entertainment Facilities category
+        final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.tab_entertainment);
 
         // Find a reference to the {@link ListView} in the layout
         final ListView placesListView = (ListView) rootView.findViewById(R.id.list);
         // Set the adapter on the {@link ListView}
         // so the list can be populated in the user interface
         placesListView.setAdapter(adapter);
+
+        //Setting up OnItemClickListener in order to start a new intent (open a website) when the user click on an item.
         placesListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position,

@@ -9,7 +9,7 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class TabFragmentAdapter extends FragmentPagerAdapter {
-    private String tabTitles[] = new String[]{"Must-see Towns", "Famous People", "Natural Beauties", "Entertainment Facilities"};
+    private String tabTitles[] = new String[]{"Must-see Towns", "Famous People", "Natural Beauties", "Entertainment"};
 
     public TabFragmentAdapter(FragmentManager fm) {
         super(fm);
@@ -35,7 +35,7 @@ public class TabFragmentAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        // Generate title based on item position
+        // According to the item position the tab titles will be created.
         return tabTitles[position];
     }
 }

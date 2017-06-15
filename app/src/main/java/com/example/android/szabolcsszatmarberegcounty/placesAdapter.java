@@ -31,29 +31,29 @@ public class placesAdapter extends ArrayAdapter<place> {
         //get the object located at given position
         place currentPlace = getItem(position);
 
-        // Find the TextView with view ID name
+        // Find the TextView with ID name
         TextView name = (TextView) listView.findViewById(R.id.name);
         name.setText(currentPlace.getName());
 
-        // Find the TextView with ID knownFor
+        // Find the TextView with ID description
         TextView description = (TextView) listView.findViewById(R.id.description);
         description.setText(currentPlace.getDescription());
 
-        // Find the background colour
+        // Find the background color
         View container = listView.findViewById(R.id.container);
         int color = ContextCompat.getColor(getContext(), mColorResourceID);
         container.setBackgroundColor(color);
 
-        // Find the ImageView in the list_item.xml layout with the ID image.
+        // Find the ImageView in the places_list.xml layout with the ID image.
         ImageView imageView = (ImageView) listView.findViewById(R.id.image);
-        // Check if an image is provided
+        // Here we can check that there is an image provided or not
         if (currentPlace.hasImage()) {
-            // If an image is available, display the provided image based on the resource ID
+            // If it is provided display it an image is available, display the provided image based on the resource ID
             imageView.setImageResource(currentPlace.getmImageResourceId());
-            // Make sure the view is visible
+            // and set it visible
             imageView.setVisibility(View.VISIBLE);
         } else {
-            // Otherwise hide the ImageView (set visibility to GONE)
+            // If it is not provided hide the ImageView
             imageView.setVisibility(View.GONE);
         }
         return listView;

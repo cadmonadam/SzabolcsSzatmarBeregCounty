@@ -25,19 +25,19 @@ public class NaturalBeautiesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.places_list, container, false);
 
-        // list of Drinking locations
+        // This is the list of the most beautiful natural formations in the county.
         final ArrayList<place> places = new ArrayList<place>();
-        places.add(new place(getString(R.string.balsa), getString(R.string.balsa_description), getString(R.string.balsa_url),  R.drawable.balsa ));
-        places.add(new place(getString(R.string.luby), getString(R.string.luby_description), getString(R.string.luby_url),  R.drawable.luby ));
-        places.add(new place(getString(R.string.botanical), getString(R.string.botanical_description), getString(R.string.botanical_url),  R.drawable.garden ));
-        places.add(new place(getString(R.string.szatmarcseke), getString(R.string.szatmarcseke_description), getString(R.string.szatmarcseke_url),  R.drawable.tajhaz ));
-        places.add(new place(getString(R.string.turistvandi), getString(R.string.turistvandi_description), getString(R.string.turistvandi_url),  R.drawable.vizimalom ));
-        places.add(new place(getString(R.string.tiszatelek), getString(R.string.tiszatelek_description), getString(R.string.tiszatelek_url), R.drawable.tiszabercel ));
-        places.add(new place(getString(R.string.vajalake), getString(R.string.vajalake_description), getString(R.string.vajalake_url),  R.drawable.vajaito ));
-        places.add(new place(getString(R.string.kaszony), getString(R.string.kaszony_description), getString(R.string.kaszony_url),  R.drawable.kaszony ));
+        places.add(new place(getString(R.string.balsa), getString(R.string.balsa_description), getString(R.string.balsa_url), R.drawable.balsa));
+        places.add(new place(getString(R.string.luby), getString(R.string.luby_description), getString(R.string.luby_url), R.drawable.luby));
+        places.add(new place(getString(R.string.botanical), getString(R.string.botanical_description), getString(R.string.botanical_url), R.drawable.garden));
+        places.add(new place(getString(R.string.szatmarcseke), getString(R.string.szatmarcseke_description), getString(R.string.szatmarcseke_url), R.drawable.tajhaz));
+        places.add(new place(getString(R.string.turistvandi), getString(R.string.turistvandi_description), getString(R.string.turistvandi_url), R.drawable.vizimalom));
+        places.add(new place(getString(R.string.tiszatelek), getString(R.string.tiszatelek_description), getString(R.string.tiszatelek_url), R.drawable.tiszabercel));
+        places.add(new place(getString(R.string.vajalake), getString(R.string.vajalake_description), getString(R.string.vajalake_url), R.drawable.vajaito));
+        places.add(new place(getString(R.string.kaszony), getString(R.string.kaszony_description), getString(R.string.kaszony_url), R.drawable.kaszony));
 
-        // Create a new {@link ArrayAdapter} for drinking category
-        final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.category_drinking);
+        // Create a new {@link ArrayAdapter} for natural beauties category
+        final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.tab_naturalBeauties);
 
         // Find a reference to the {@link ListView} in the layout
         final ListView placesListView = (ListView) rootView.findViewById(R.id.list);
@@ -45,6 +45,7 @@ public class NaturalBeautiesFragment extends Fragment {
         // so the list can be populated in the user interface
         placesListView.setAdapter(adapter);
 
+        //Setting up OnItemClickListener in order to start a new intent (open a website) when the user click on an item.
         placesListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position,

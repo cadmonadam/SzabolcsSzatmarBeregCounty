@@ -14,13 +14,13 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        // allow the user to swipe between fragments
+        // With the help of ViewPager the user can switch between the different fragments.
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
-        // Create an adapter that knows which fragment should be shown on each page
+        // Create an adapter which provide the appropriate content to the tabs.
         TabFragmentAdapter adapter = new TabFragmentAdapter(getSupportFragmentManager());
 
-        // Set the adapter onto the view pager
+        // Set the adapter into the view pager
         viewPager.setAdapter(adapter);
 
         // Set the TabLayout with the ViewPager

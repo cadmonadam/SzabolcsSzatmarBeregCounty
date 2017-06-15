@@ -37,28 +37,28 @@
     <string name="tyukod_url">https://www.utazzitthon.hu/latnivalo/tyukod/tyukodi-horgaszto-33515</string>
     <string name="vay">Vay Ádám (1657 – 1719)</string>
     <string name="vay_description">General in Revolution and War of Independence of II. Rákóczi Ferenc</string>
-    <string formatted="false" name="vay_url">https://hu.wikipedia.org/wiki/Vay_%C3%81d%C3%A1m_%28f%C5%91kapit%C3%A1ny%29</string>
+    <string name="vay_url" formatted="false">https://hu.wikipedia.org/wiki/Vay_%C3%81d%C3%A1m_%28f%C5%91kapit%C3%A1ny%29</string>
     <string name="bessenyei">Bessenyei György (1746 – 1811)</string>
     <string name="bessenyei_description">Poet, one of the major personalities of the Hungarian Enlightenment Movement.</string>
-    <string formatted="false" name="bessenyei_url">https://hu.wikipedia.org/wiki/Bessenyei_Gy%C3%B6rgy</string>
+    <string name="bessenyei_url" formatted="false">https://hu.wikipedia.org/wiki/Bessenyei_Gy%C3%B6rgy</string>
     <string name="lonyay">Lónyay Menyhért (1822 – 1884)</string>
     <string name="lonyay_description">Politician, prime minister, publicist, president of the Hungarian Academy of Sciences.</string>
-    <string formatted="false" name="lonyay_url">https://hu.wikipedia.org/wiki/L%C3%B3nyay_Menyh%C3%A9rt</string>
+    <string name="lonyay_url" formatted="false">https://hu.wikipedia.org/wiki/L%C3%B3nyay_Menyh%C3%A9rt</string>
     <string name="vasvari">Vasvári Pál (1826 – 1849)</string>
     <string name="vasvari_description">Writer, historian, philosopher, politician, revolutionist.</string>
-    <string formatted="false" name="vasvari_url">https://hu.wikipedia.org/wiki/Vasv%C3%A1ri_P%C3%A1l_%28t%C3%B6rt%C3%A9n%C3%A9sz%29</string>
+    <string name="vasvari_url" formatted="false">https://hu.wikipedia.org/wiki/Vasv%C3%A1ri_P%C3%A1l_%28t%C3%B6rt%C3%A9n%C3%A9sz%29</string>
     <string name="koranyi">Korányi Frigyes (1828 – 1913)</string>
     <string name="koranyi_description">Doctor, university professor, one of the determinants in Hungarian Medicine.</string>
-    <string formatted="false" name="koranyi_url">https://hu.wikipedia.org/wiki/Kor%C3%A1nyi_Frigyes_(orvos)</string>
+    <string name="koranyi_url" formatted="false">https://hu.wikipedia.org/wiki/Kor%C3%A1nyi_Frigyes_(orvos)</string>
     <string name="benczur">Benczúr Gyula (1844 – 1920)</string>
     <string name="benczur_description">Famous painter, honorary member of the Hungarian Academy of Sciences.</string>
-    <string formatted="false" name="benczur_url">https://hu.wikipedia.org/wiki/Bencz%C3%BAr_Gyula_%28fest%C5%91m%C5%B1v%C3%A9sz%29</string>
+    <string name="benczur_url" formatted="false">https://hu.wikipedia.org/wiki/Bencz%C3%BAr_Gyula_%28fest%C5%91m%C5%B1v%C3%A9sz%29</string>
     <string name="krudy">Krúdy Gyula (1878 – 1933)</string>
     <string name="krudy_description">Writer, an excellent master of modern Hungarian prose writings.</string>
-    <string formatted="false" name="krudy_url">https://hu.wikipedia.org/wiki/Kr%C3%BAdy_Gyula</string>
+    <string name="krudy_url" formatted="false">https://hu.wikipedia.org/wiki/Kr%C3%BAdy_Gyula</string>
     <string name="moricz">Móricz Zsigmond (1879 – 1942)</string>
     <string name="moricz_description">Hungarian writer, journalist, editor, the most famous figure of the realistic prose literature of the 20th century.</string>
-    <string formatted="false" name="moricz_url">https://hu.wikipedia.org/wiki/M%C3%B3ricz_Zsigmond</string>
+    <string name="moricz_url" formatted="false">https://hu.wikipedia.org/wiki/M%C3%B3ricz_Zsigmond</string>
     <string name="bakta_description">Explore the shiny Dregenfel Castle Museum.</string>
     <string name="bakta_url">https://www.programturizmus.hu/telepules-baktaloranthaza.html</string>
     <string name="tuzser">Tuzsér</string>
@@ -80,7 +80,7 @@
     <string name="balsa_description">Situated on the banks of the river Tisza in a unique natural environment.</string>
     <string name="balsa_url">https://www.programturizmus.hu/partner-balsai-okoturisztikai-latogatokozpont.html</string>
     <string name="luby">Luby Castle Museum and Garden of Ancient Roses</string>
-    <string name="luby_description">In Kincses Island of Szatmár, the Luby Castle is located in Nagyar. The unusual mansion is surrounded by Hungary\'s largest musician\'s rose garden.</string>
+    <string name="luby_description">In Kincses Island of Szatmár, the Luby Castle is located in Nagyar. It is surrounded by Hungary\'s largest musician\'s rose garden.</string>
     <string name="luby_url">https://www.programturizmus.hu/partner-luby-kastelymuzeum.html</string>
     <string name="botanical">János Tuzson Botanical Garden</string>
     <string name="botanical_description">Situated in the vicinity of the beautiful Sóstó forest, in the embrace of College of Nyíregyháza.</string>
@@ -92,7 +92,7 @@
     <string name="turistvandi_description">The Water mill was built at the end of the 18th century. It offers a spectacular view with its protected monumental surroundings.</string>
     <string name="turistvandi_url">https://www.programturizmus.hu/partner-vizimalom-turistvandi.html//</string>
     <string name="tiszatelek">Tiszatelek</string>
-    <string name="tiszatelek_description">In the bank of the river Tisza you can find real natural beauties: wild-summer-grasslands, hardwood oak trees, the white fairy-rose, the tulip flowers etc.</string>
+    <string name="tiszatelek_description">In the bank of the river Tisza you can find real natural beauties:wild-summer-grasslands, hardwood oak trees, the white fairy-rose etc.</string>
     <string name="tiszatelek_url">https://www.utazzitthon.hu/latnivalo/tiszatelek/tiszaberceli-arter-21032</string>
     <string name="vajalake">Lake of Vaja</string>
     <string name="vajalake_description">A beautiful place where you can fish or just enjoy the rest.</string>
