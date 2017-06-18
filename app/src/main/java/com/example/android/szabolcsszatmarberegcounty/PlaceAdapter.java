@@ -11,11 +11,11 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class placesAdapter extends ArrayAdapter<place> {
+public class PlaceAdapter extends ArrayAdapter<place> {
 
     private int mColorResourceID;
 
-    public placesAdapter(Context context, ArrayList<place> pPlaces, int colorResourceID) {
+    public PlaceAdapter(Context context, ArrayList<place> pPlaces, int colorResourceID) {
         super(context, 0, pPlaces);
         mColorResourceID = colorResourceID;
     }
@@ -56,6 +56,10 @@ public class placesAdapter extends ArrayAdapter<place> {
             // If it is not provided hide the ImageView
             imageView.setVisibility(View.GONE);
         }
+        //Setting up the background color for the imageView
+        imageView.setImageResource(currentPlace.getmImageResourceId());
+        imageView.setBackgroundColor(color);
+
         return listView;
     }
 }

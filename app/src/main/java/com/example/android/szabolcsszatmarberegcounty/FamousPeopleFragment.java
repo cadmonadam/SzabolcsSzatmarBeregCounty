@@ -37,7 +37,7 @@ public class FamousPeopleFragment extends Fragment {
         places.add(new place(getString(R.string.moricz), getString(R.string.moricz_description), getString(R.string.moricz_url), R.drawable.moricz));
 
         // Create a new {@link ArrayAdapter} for Famous People category.
-        final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.tab_famousPeople);
+        final PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.tab_famousPeople);
 
         // Find a reference to the {@link ListView} in the layout
         final ListView placesListView = (ListView) rootView.findViewById(R.id.list);

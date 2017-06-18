@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
         // Create an adapter which provide the appropriate content to the tabs.
-        TabFragmentAdapter adapter = new TabFragmentAdapter(getSupportFragmentManager());
+        TabFragmentAdapter adapter = new TabFragmentAdapter(getSupportFragmentManager(), this);
 
         // Set the adapter into the view pager
         viewPager.setAdapter(adapter);

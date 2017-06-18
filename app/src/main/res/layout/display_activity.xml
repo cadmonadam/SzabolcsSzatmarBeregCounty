@@ -10,8 +10,6 @@
     <ImageView
         android:id="@+id/image"
         style="@style/ImageViewStyle"
-        android:background="#ffffff"
-        android:backgroundTint="@color/colorPrimary"
         android:padding="1dp"
         android:src="@drawable/nyiregyhaza"
         tools:ignore="ContentDescription" />

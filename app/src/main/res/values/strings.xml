@@ -100,6 +100,10 @@
     <string name="kaszony">Kaszony Hill</string>
     <string name="kaszony_description">From the top of the hill you can see an incredible panorama.</string>
     <string name="kaszony_url">https://www.utazzitthon.hu/latnivalo/barabas-varos/kaszonyi-hegy-termeszetvedelmi-terulet-barabas-21251</string>
+    <string name="mustSeeTowns">Must-see Towns</string>
+    <string name="famousPeople">Famous People</string>
+    <string name="naturalBeauties">Natural Beauties</string>
+    <string name="entertainment">Entertainment</string>
 
 
 </resources>

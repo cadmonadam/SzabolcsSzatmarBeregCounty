@@ -1,5 +1,6 @@
 package com.example.android.szabolcsszatmarberegcounty;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -9,24 +10,31 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class TabFragmentAdapter extends FragmentPagerAdapter {
-    private String tabTitles[] = new String[]{"Must-see Towns", "Famous People", "Natural Beauties", "Entertainment"};
+    Context context;
+    private String tabTitles[];
 
-    public TabFragmentAdapter(FragmentManager fm) {
+    public TabFragmentAdapter(FragmentManager fm, Context context) {
         super(fm);
+        this.context = context;
+        tabTitles = new String[]{context.getString(R.string.mustSeeTowns), context.getString(R.string.famousPeople), context.getString(R.string.naturalBeauties), context.getString(R.string.entertainment)};
     }
 
     @Override
+
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new MustSeeTownsFragment();
-        } else if (position == 1) {
-            return new FamousPeopleFragment();
-        } else if (position == 2) {
-            return new NaturalBeautiesFragment();
-        } else {
-            return new EntertainmentFacilitiesFragment();
+        switch (position) {
+            case 0:
+                return new MustSeeTownsFragment();
+            case 1:
+                return new FamousPeopleFragment();
+            case 2:
+                return new NaturalBeautiesFragment();
+            case 3:
+                return new EntertainmentFacilitiesFragment();
         }
+        return null;
     }
+
 
     @Override
     public int getCount() {

@@ -37,7 +37,7 @@ public class NaturalBeautiesFragment extends Fragment {
         places.add(new place(getString(R.string.kaszony), getString(R.string.kaszony_description), getString(R.string.kaszony_url), R.drawable.kaszony));
 
         // Create a new {@link ArrayAdapter} for natural beauties category
-        final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.tab_naturalBeauties);
+        final PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.tab_naturalBeauties);
 
         // Find a reference to the {@link ListView} in the layout
         final ListView placesListView = (ListView) rootView.findViewById(R.id.list);

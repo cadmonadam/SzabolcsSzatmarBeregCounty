@@ -12,6 +12,6 @@
     <color name="tab_famousPeople">#29B6F6</color>
     <!-- 3. Natural Beauties color.-->
     <color name="tab_naturalBeauties">#039BE5</color>
-    <!-- 4. Background color for the shopping category -->
+    <!-- 4. Entertainment Facilites color. -->
     <color name="tab_entertainment">#29B6F6</color>
 </resources>

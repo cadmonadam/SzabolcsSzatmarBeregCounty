@@ -38,7 +38,7 @@ public class MustSeeTownsFragment extends Fragment {
 
 
         // Create a new {@link ArrayAdapter} for Must-See Towns category
-        final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.tab_mustSeeTowns);
+        final PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.tab_mustSeeTowns);
 
         // Find a reference to the {@link ListView} in the layout
         final ListView placesListView = (ListView) rootView.findViewById(R.id.list);

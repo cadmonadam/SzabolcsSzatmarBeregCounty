@@ -38,7 +38,7 @@ public class EntertainmentFacilitiesFragment extends Fragment {
 
 
         // Create a new {@link ArrayAdapter} for Entertainment Facilities category
-        final placesAdapter adapter = new placesAdapter(getActivity(), places, R.color.tab_entertainment);
+        final PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.tab_entertainment);
 
         // Find a reference to the {@link ListView} in the layout
         final ListView placesListView = (ListView) rootView.findViewById(R.id.list);
